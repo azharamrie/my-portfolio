@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<title>My Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+	integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+	crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	
+</head>
+
+<body>
+<!-------------------- Main Section -------------------->
+
+<div class="hero">
+	<nav class="navbar">
+		<div class="brand-title">My<span>Portfolio</span></div>
+		<a href="#" class="toggle-button">
+			<span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
+		</a>
+		<div class="navbar-links">
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	
+	<div class="content" data-aos="fade-right">
+		<h4>Hi there, my name is</h4>
+		<h1>Azhar Amrie</h1>
+		<h3><span>Front-End Developer</span></h3>		
+	</div>
+</div>
+
+
+<!-------------------- About section -------------------->
+
+<a name="about"></a>
+<section class="about">
+<div class="main">
+	<img src="images/owner.png" data-aos="fade-right">
+	<div class="about-text">
+		<h2>About Me</h2>
+		<h5><span>Business Computing</span> Student</h5>
+		<p>I'm a student in Bachelor of Information Systems (Hons.) Business Computing.
+		I'm pursuing my study at MARA University of Technology (UiTM). I have done some
+		projects relate to Web Development, E-commerce, Business Data Analytics,
+		Business Process Management and Machine Learning. I build and bring out new
+		strategies on websites and web designs for a great user experience.</p>
+		<a href="myresume.pdf"><button type="button"><i class="fas fa-download"></i> &nbsp;Download Resume</button></a>
+		
+	</div>
+</div>
+</section>
+
+<!-------------------- Skills section -------------------->
+
+
+<div class="service">
+	<a name="skills"></a>
+	<div class="title">		
+		<h2>My Skills</h2>
+	</div>
+	
+	<div class="box">
+	
+		<div class="card" data-aos="fade-right">
+			<i class="fas fa-code"></i>
+			<h5>Web Development</h5>
+			<div class="pra">
+				<p>I build outstanding and high performance websites for clients with a user friendly
+				features to optimize user experience to increase user satisfaction.</p>
+				
+				
+				
+			</div>
+		</div>
+		
+		<div class="card" data-aos="fade-up">
+			<i class="fas fa-paint-roller"></i>
+			<h5>Creative Design</h5>
+			<div class="pra">
+				<p>I help individuals and companies design and build a creative website
+				to maximize visual experience and also meet their user's specific requirements.</p>
+				
+			
+				
+			</div>
+		</div>
+		
+		<div class="card" data-aos="fade-left">
+			<i class="fas fa-chart-area"></i>
+			<h5>Data Analytics</h5>
+			<div class="pra">
+				<p>I collect some data from the clients or open source data to generate
+				new insights by doing data preprocessing, modelling and visualization.</p>
+				<br><br>
+			
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-------------------- Projects section -------------------->
+
+<a name="projects">
+<div class="projects">
+	<div class="title">
+		<h2>Past <span>Projects</span></h2>
+	</div>
+	
+	<div class="main1">
+		<img src="images/1.png" data-aos="fade-right">
+		<div class="project-text">
+			<h3><span>EcommEva</span> (2022)</h3>
+			<p>EcommEva stands for E-commerce Website Evaluation Tool using
+			Opinion Mining. This platform helps the user to review whether
+			the e-commerce website is genuine or fraud. The system uses 
+			Logistic Regression model to predict sentiment based on the comment
+			submitted by user.</p>
+		</div>
+	</div>
+	
+	<div class="main1">
+		<div class="project-text">
+			<h3><span>Wazap My E-commerce</span> (2021)</h3>
+			<p>Wazap My is a registered business company and their main
+			product is Tudung. Display all the available product and keep
+			the customer data in this system. However, this e-commerce website is using manual
+			payment method whereby there is no payment gateway implemented
+			in this website.</p>
+		</div>
+		<img src="images/2.png" data-aos="fade-left">
+	</div>
+	
+	<div class="main1">
+		<img src="images/3.png" data-aos="fade-right">
+		<div class="project-text">
+			<h3><span>UiTM e-Clinic</span> (2021)</h3>
+			<p>This platform provides online appointment system for the student of
+			UiTM Campus Shah Alam.</p>
+		</div>
+	</div>
+	
+	
+</div>
+
+<!-------------------- Contact section -------------------->
+
+<a name="contact"></a>
+<div class="contact">
+	<p>Feel Free To <span>Contact</span> Me</p>
+	<div class="container">
+		<form action="https://formspree.io/f/mjvzklwz" method="post">
+			<input type="text" name="Name" placeholder="Full name" required>
+			<input type="email" name="Email" placeholder="Email" required>
+			<textarea rows="7" name="Message" placeholder="Write your message here..." required></textarea>
+			<button type="submit" id="emailsend">Send</button>
+		</form>
+	</div>
+</div>
+
+<!-------------------- Footer section -------------------->
+
+<footer>
+	<p>Mohd Azhar Amrie</p>
+	<p>Kindly follow and support me for more sharing ideas and
+	opinions in the future - please click on the icon below to
+	visit my account:</p>
+	<div class="social">
+		<a href="https://www.linkedin.com/in/azharamrie/"><i class="fab fa-linkedin-in"></i></a>
+		<a href="https://www.facebook.com/azharamrie/"><i class="fab fa-facebook-f"></i></a>
+		<a href="https://mobile.twitter.com/azhar_amrie"><i class="fab fa-twitter"></i></a>
+	</div>
+	<p class="end">© copyright. Mohd Azhar Amrie, 2022</p>
+</footer>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+	AOS.init({
+		duration: 1500,
+		once: true,
+	});
+</script>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+<script>
+	var toggleButton = document.getElementsByClassName('toggle-button')[0]
+	var navbarLinks = document.getElementsByClassName('navbar-links')[0]
+	
+	toggleButton.addEventListener('click', () => {
+		navbarLinks.classList.toggle('active')
+	})
+	</script>
+	
+<script>
+
+</script>
+</body>
+
+</html>
